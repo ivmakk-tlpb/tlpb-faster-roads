@@ -27,6 +27,8 @@ Made and tested for single player. Co-op is not tested.
 
 ## Install
 
+Download the zip from [Nexus Mods](https://www.nexusmods.com/thelastplagueblight/mods/11) or [GitHub Releases](https://github.com/ivmakk-tlpb/tlpb-faster-roads/releases).
+
 1. Install the [BepInEx Pack for The Last Plague: Blight](https://www.nexusmods.com/thelastplagueblight/mods/9). If no other mods were installed before, start the game once so BepInEx finishes setup, then quit.
 2. Extract this mod's zip into the game folder (the folder with the game .exe). The DLL lands in `BepInEx\plugins`. Full path example:
    - Steam: `C:\Program Files (x86)\Steam\steamapps\common\The Last Plague\BepInEx\plugins\FasterRoads.dll`
