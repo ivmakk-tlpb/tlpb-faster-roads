@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\Plugin.cs" Link="Plugin.cs" />
+    <Compile Include="..\..\src\RoadState.cs" Link="RoadState.cs" />
+    <Compile Include="..\..\src\Boost.cs" Link="Boost.cs" />
+    <Compile Include="..\..\src\DrainPulse.cs" Link="DrainPulse.cs" />
+    <Compile Include="..\..\src\RoadText.cs" Link="RoadText.cs" />
+    <Compile Include="..\..\src\Game\PlayerViews.cs" Link="Game\PlayerViews.cs" />
+    <Compile Include="..\..\src\Game\RoadProbe.cs" Link="Game\RoadProbe.cs" />
+    <Compile Include="..\..\src\Patches\HudPatches.cs" Link="Patches\HudPatches.cs" />
+    <Compile Include="..\..\src\Patches\MovePatches.cs" Link="Patches\MovePatches.cs" />
+    <Compile Include="..\..\src\Patches\StaminaPatches.cs" Link="Patches\StaminaPatches.cs" />
+    <Compile Include="..\..\src\Patches\TilePatches.cs" Link="Patches\TilePatches.cs" />
+    <Compile Include="..\..\src\Patches\TooltipPatches.cs" Link="Patches\TooltipPatches.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageReference Include="xunit.v3" Version="4.0.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>

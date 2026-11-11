@@ -1,0 +1,34 @@
+{
+  "nexus": {
+    "name": "Faster Roads",
+    "author": "ivmakk",
+    "category": "Miscellaneous",
+    "summary": "Move faster and use less stamina on roads."
+  },
+  "thumbnail": {
+    "out": "01-thumb.jpg",
+    "screenshot": "on-road.jpg",
+    "crop": [620, 554, 1920, 1080],
+    "title": [{ "text": "Faster", "accent": true }, { "text": "Roads" }],
+    "rows": [
+      {
+        "icon": "resources.assets/movement",
+        "caption": [{ "text": "33% faster", "accent": true }, { "text": "on every road" }]
+      },
+      {
+        "icon": "resources.assets/stamina",
+        "caption": [{ "text": "Less stamina drain", "accent": true }, { "text": "while running on roads" }]
+      }
+    ]
+  },
+  "background": {
+    "out": "banner.jpg",
+    "screenshot": "on-road.jpg",
+    "crop": [1150, 880, 1420, 406],
+    "darken": [
+      "linear-gradient(90deg, rgba(12,12,14,0.92) 0%, rgba(12,12,14,0) 48%)",
+      "linear-gradient(180deg, rgba(12,12,14,0) 59%, rgba(12,12,14,0.6) 100%)"
+    ],
+    "overlays": []
+  }
+}
